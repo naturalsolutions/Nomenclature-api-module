@@ -7,6 +7,7 @@ from flask_admin.contrib.sqla.filters import BaseSQLAFilter
 from pypnnomenclature.models import TNomenclatures, BibNomenclaturesTypes
 from pypnnomenclature.env import db
 from sqlalchemy import select
+from flask_babel import lazy_gettext as _l
 
 
 # https://github.com/flask-admin/flask-admin/issues/1807
@@ -113,9 +114,9 @@ class TNomenclaturesAdmin(ModelView):
     page_size = 15
 
     column_filters = [
-        TNomenclatureFiltersType(column=None, name="Type de nomenclature"),
-        TNomenclatureFiltersId(column=None, name="Id nomenclature"),
-        TNomenclatureFiltersMnemonique(column=None, name="Mnemonique"),
+        TNomenclatureFiltersType(column=None, name=_l("Type de nomenclature")),
+        TNomenclatureFiltersId(column=None, name=_l("Id nomenclature")),
+        TNomenclatureFiltersMnemonique(column=None, name=_l("Mnemonique")),
     ]
 
 
@@ -205,7 +206,7 @@ class BibNomenclaturesTypesAdmin(ModelView):
     ]
 
     column_filters = [
-        BibNomenclatureFiltersLabel(column=None, name="Type de nomenclature"),
-        BibNomenclatureFiltersID(column=None, name="Id type"),
-        BibNomenclatureFiltersMnemonique(column=None, name="Mnémonique"),
+        BibNomenclatureFiltersLabel(column=None, name=_l("Type de nomenclature")),
+        BibNomenclatureFiltersID(column=None, name=_l("Id type")),
+        BibNomenclatureFiltersMnemonique(column=None, name=_l("Mnémonique")),
     ]
