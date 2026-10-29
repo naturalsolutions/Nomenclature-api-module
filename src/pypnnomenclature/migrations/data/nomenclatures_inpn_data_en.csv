@@ -1,0 +1,619 @@
+type,cd_nomenclature,label_en,definition_en
+ABONDANCE_HAB,1,Very low cover,Very low cover
+ABONDANCE_HAB,2,Habitat covering about 1/20 to 1/4 of the area (5 to 25 %),Habitat covering approximately 1/20 to 1/4 of the area (5 to 25 %)
+ABONDANCE_HAB,3,Habitat covering about 1/4 to 1/2 of the area (25 to 50 %),Habitat covering approximately 1/4 to 1/2 of the area (25 to 50 %)
+ABONDANCE_HAB,4,Habitat covering about 1/2 to 3/4 of the area (50 to 75 %),Habitat covering approximately 1/2 to 3/4 of the area (50 to 75 %)
+ABONDANCE_HAB,5,Habitat covering more than 3/4 of the area (>75 %),Habitat covering more than 3/4 of the area (>75 %)
+CAT_LISTE_ROUGE,CR,Critically Endangered,A taxon is Critically Endangered when the best available evidence indicates that it meets any of the criteria for Critically Endangered and it is therefore considered to be facing an extremely high risk of extinction in the wild.
+CAT_LISTE_ROUGE,CR*,"Critically Endangered, possibly extinct","Critically endangered, possibly extinct"
+CAT_LISTE_ROUGE,DD,Data Deficient,"A taxon is Data Deficient when there is inadequate information to make a direct or indirect assessment of its risk of extinction based on its distribution and/or population status. A taxon in this category may have been studied in depth and its biology may be well known, but appropriate data on abundance and/or distribution are lacking. Data Deficient is therefore not a Threatened category. Listing a taxon in this category indicates that more information is required and does not rule out the possibility that future research will show that the taxon could have been classified in a Threatened category. It is imperative to make full use of all available data."
+CAT_LISTE_ROUGE,EN,Endangered,A taxon is Endangered when the best available evidence indicates that it meets any of the criteria for Endangered and it is therefore considered to be facing a very high risk of extinction in the wild.
+CAT_LISTE_ROUGE,EW,Extinct in the Wild,"A taxon is Extinct in the Wild when it is known only to survive in cultivation, in captivity or as a naturalised population (or populations) well outside its past range. A taxon is presumed Extinct in the Wild when detailed surveys in known and/or expected habitat, at appropriate times (diurnal, seasonal, annual), throughout its historic range have failed to record a single individual. Surveys should be over a time frame appropriate to the taxon's life cycle and life form."
+CAT_LISTE_ROUGE,EX,Extinct,"A taxon is Extinct when there is no doubt that the last individual has died. A taxon is presumed Extinct when exhaustive surveys in its known and/or expected habitat, at appropriate times (diurnal, seasonal, annual), throughout its historic range have failed to record a single individual. Surveys should be over a time frame appropriate to the taxon's life cycle and life form."
+CAT_LISTE_ROUGE,LC,Least Concern,"A taxon is Least Concern when it has been evaluated against the criteria and does not qualify for Critically Endangered, Endangered, Vulnerable or Near Threatened. Widespread and abundant taxa are included in this category."
+CAT_LISTE_ROUGE,NA,Not Applicable,"Category reserved for a taxon considered ineligible for assessment at the regional level. A taxon may be classed NA because it is not a wild population or is not within its natural range in the region, or because it is a vagrant in the region. A taxon may also be classed NA because it occurs only in very low numbers in the region (e.g. when the regional Red List authority has decided to use a 'filter' to exclude some taxa before the assessment procedure) or because it is classified at a lower taxonomic level (e.g. below the species or subspecies level) than those considered eligible by the regional Red List authority. Unlike other Red List categories, it is not mandatory to assign the NA category to all taxa to which it applies, but it is recommended where it is informative."
+CAT_LISTE_ROUGE,NE,Not Evaluated,A taxon is Not Evaluated when it has not yet been evaluated against the criteria.
+CAT_LISTE_ROUGE,NT,Near Threatened,"A taxon is Near Threatened when it has been evaluated against the criteria and does not, for the time being, qualify for Critically Endangered, Endangered or Vulnerable, but is close to qualifying for a Threatened category or is likely to qualify in the near future."
+CAT_LISTE_ROUGE,RE,Regionally Extinct,"Category assigned to a taxon when there is no reasonable doubt that the last individual capable of reproduction in the region has died or has disappeared from the wild in the region, or, in the case of a former visiting taxon, when the last individual has died or disappeared from the wild in the region. The time limit chosen for listing a taxon as RE is left to the discretion of the regional Red List authority, but should not normally be earlier than the year 1500 CE."
+CAT_LISTE_ROUGE,VU,Vulnerable,A taxon is Vulnerable when the best available evidence indicates that it meets any of the criteria for Vulnerable and it is therefore considered to be facing a high risk of extinction in the wild.
+CA_OBJECTIFS,10,Experimentation/research,"Data acquisition is carried out with the aim of improving scientific knowledge focused on one or more specific questions (from describing biodiversity patterns to experimentation to explain processes or demonstrate 'before/after' causal relationships (effect of management, mechanisms etc.)). Purely 'observational' or 'correlative' experimentation and research must be placed in the 'inventories' or 'monitoring/surveillance' categories."
+CA_OBJECTIFS,11,Multiple or other,Data acquisition is carried out with a specific approach involving several of the approaches described above.
+CA_OBJECTIFS,8,Inventories and mapping,Occurrence data acquisition is carried out with the aim of obtaining information on the presence/absence or numbers/abundance (count…) of one or more biodiversity objects. The collection scheme is designed to provide a spatial representation of the distribution of one or more biodiversity objects at predefined dates or periods.
+CA_OBJECTIFS,9,Monitoring/surveillance over time,"Occurrence data acquisition is carried out with a collection scheme involving repeated acquisition over time. The approach allows a state to be compared between different periods for one or more biodiversity objects. It is set up in connection with a predetermined theme (conservation biology, global change, …)."
+CONFID,1,Public,Public: the site record is not confidential.
+CONFID,2,Confidential,Confidential: the record has a high level of confidentiality.
+DATA_TYP,1,Taxon occurrences,Taxon occurrences
+DATA_TYP,2,Habitat occurrences,Habitat occurrences
+DATA_TYP,3,Syntax,Taxon synthesis
+DATA_TYP,4,Synhab,Habitat synthesis
+DATA_TYP,5,Not specified,Not specified
+DEE_FLOU,NON,No,"No: indicates that no blurring took place. Non-blurred data, supplied precise by the producer."
+DEE_FLOU,NSP,Don't know,NSP: Indicates that it is unknown whether blurring took place.
+DEE_FLOU,OUI,Yes,Yes: indicates that blurring took place. Blurring performed by the producer before sending to the SINP (an SINP platform).
+DETERMINATION_TYP_HAB,0,Unknown,Unknown: the determination type is not known
+DETERMINATION_TYP_HAB,1,Assigned in the field,"Assigned in the field: the determination was assigned in the field, or in the laboratory after examination of material from the field"
+DETERMINATION_TYP_HAB,2,A posteriori expert assessment,A posteriori expertise: The determination was assigned a posteriori on the basis of the species relevé and/or external expertise and/or consultation of additional documents.
+DETERMINATION_TYP_HAB,3,Typological correspondence: code assigned automatically by applying a correspondence between existing typologies.,Typological correspondence: code assigned automatically by applying a correspondence between existing typologies
+DS_PUBLIQUE,NSP,Don't know,Don't know: Whether the Source Data is public or private is not known.
+DS_PUBLIQUE,Pr,Private,Private: The Source Data was produced by a private organisation or by an individual in a personal capacity. No organisation with public authority has acquired the economic rights; the Source Data remains the property of the private organisation or individual. Only this case allows geographic blurring of the DEE.
+DS_PUBLIQUE,Pu,Public,"Public: The Source Data is public, whether it is produced 'in-house' or 'acquired'."
+ETA_BIO,0,Don't know,"Unknown (can be used for viruses or withered plants, for example)."
+ETA_BIO,1,Not specified,The information has not been provided.
+ETA_BIO,2,Observed alive,The individual was observed alive.
+ETA_BIO,3,Found dead,"The individual was found dead: whole carcass or skull, for example. Death occurred before the observation process."
+EXPOSITION,E,E,East: 78.75° - 101.25°
+EXPOSITION,ENE,ENE,East-North-East: 56.25° - 78.75°
+EXPOSITION,ESE,ESE,East-South-East: 101.25° - 123.75°
+EXPOSITION,N,N,North: 348.75° - 11.25°
+EXPOSITION,NE,NE,North-East: 33.75° - 56.25°
+EXPOSITION,NNE,NNE,North-North-East: 11.25° - 33.75°
+EXPOSITION,NNO,NNW,North-North-West: 326.25° - 348.75°
+EXPOSITION,NO,NW,North-West: 303.75° - 326.25 °
+EXPOSITION,O,W,West: 258.75° - 281.25°
+EXPOSITION,ONO,WNW,West-North-West: 281.25° - 303.75 °
+EXPOSITION,OSO,WSW,West-South-West: 236.25° - 258.75°
+EXPOSITION,S,S,South: 168.75° - 191.25°
+EXPOSITION,SE,SE,South-East: 123.75°- 146.25°
+EXPOSITION,SO,SW,South-West: 213.75° - 236.25°
+EXPOSITION,SSE,SSE,South-South-East: 146.25° - 168.75°
+EXPOSITION,SSO,SSW,South-South-West: 191.25° - 213.75°
+HAB_INTERET_COM,1,Yes: the habitat is of Community interest.,Yes: the habitat is indeed of Community interest.
+HAB_INTERET_COM,2,No: the habitat is not of Community interest,No: the habitat is not of Community interest
+HAB_INTERET_COM,3,"Yes, priority: yes, the habitat is a priority habitat of Community interest. Example: orchid-rich calcareous grasslands.","Yes, priority: Yes, the habitat is of priority Community interest. Example: Calcareous grasslands rich in orchids."
+JDD_OBJECTIFS,1.1,Opportunistic naturalist observations,"Participatory observation programmes (general public or volunteer experts, 'recording scheme'), collecting observation data without any particular sampling design or predefined objective. Field notebook entry falls under this heading. Likewise, incidental observations (non-target group) made during a specific programme fall into this category. If this information is collected in an online atlas programme, it falls into category 1.2"
+JDD_OBJECTIFS,1.2,Distribution inventory,"Project-based approach with sampling aimed at covering as much territory as possible for a given species or taxonomic group, in order to establish its distribution in an atlas approach, whatever its scale (generally departmental, regional or national). When the distribution inventory is the dominant approach and is accompanied by occasional observations (non-target: e.g. observation of a grass snake during a breeding bird atlas square), these occasional observations may be included in this category but should as far as possible form a separate dataset within the same acquisition framework with the category 'opportunistic naturalist observations'"
+JDD_OBJECTIFS,1.3,Inventory for species or community study,"Data acquisition approach associated with a protocol aimed at obtaining information on the factors that structure the presence and/or observation of a species, population or community at the scale of a station or an eco-complex. Objectives may be multiple (conservation, ethology, population dynamics, biological interactions, community structuring ...). Setting up protocols to establish detectability indices for species and/or their degree of specialisation with respect to a habitat falls into this case."
+JDD_OBJECTIFS,1.4,Digitisation of collections,"Dataset generated by mobilising (entering) data from one or more specimen collections (herbarium, entomological collection etc.) with the aim of making them available for any use. This case is to be used only if no other more specific reason underlying the constitution of the collection can be assigned: for example, where an exploration campaign generates collections, the dataset must be assigned to the 'ATBI and exploration' objective (cf. label 2.5)"
+JDD_OBJECTIFS,1.5,Digitisation of bibliography,"Special case of a dataset containing only data derived from the analysis of literature (whether published or grey literature) with the aim of making them available for any use. This case is to be used only if no other more specific reason underlying the constitution of the literature can be assigned: for example, where an exploration campaign on a site generates publications, the dataset must be assigned to the 'ATBI and exploration' objective. Field observation notebooks rather fall under 1.1, Opportunistic observations"
+JDD_OBJECTIFS,2.1,Habitat mapping,"Data corresponding to vegetation-habitat-ecosystem mapping established at a broad scale (department, region, PNR, small natural region) and not according to a site or site-network approach. Field approaches, image processing or a combination of both are included. Species community relevés (generally vegetation/phytosociological relevés or benthos for marine habitats) carried out as part of vegetation-habitat-ecosystem mapping. If only relevés are carried out (without determination of the vegetation or habitat type), another heading must be assigned."
+JDD_OBJECTIFS,2.2,Habitat inventory,"Spatial sampling design with determination of the vegetation-habitat-ecosystem type. Species community relevés (generally vegetation/phytosociological relevés or benthos for marine habitats) carried out as part of a vegetation-habitat-ecosystem inventory. If only relevés are carried out (without determination of the vegetation or habitat type), another heading must be assigned"
+JDD_OBJECTIFS,2.3,Opportunistic habitat data,Record of the presence of a vegetation-habitat-ecosystem type not falling within a predefined sampling design
+JDD_OBJECTIFS,2.4,Inventory for habitat study,"Species community relevés (generally vegetation/phytosociological relevés or benthos for marine habitats) carried out for studies or research on vegetation-habitats-ecosystems. Data acquisition approach associated with a protocol aimed at improving knowledge or the definition of a habitat, building a typology, or clarifying its functioning, assessing its conservation status... If only relevés are carried out (unrelated to the vegetation or habitat type), another heading must be assigned (1.3)"
+JDD_OBJECTIFS,2.5,Digitisation of habitat bibliography,"Special case of a dataset containing only data derived from the analysis of literature (whether published or grey literature) with the aim of making them available for any use concerning habitats and the associated standardised relevés (phytosociological, benthos)"
+JDD_OBJECTIFS,3.1,ABC-type inventory,"Inventories carried out as part of producing a municipal biodiversity atlas, whether following the 'Ministry' approach or a similar approach (PNR approach, IBC for example). Pre-existing data digitised on the occasion of and for the ABC fall into this category. Any temporal monitoring initiated in an ABC does not fall under this heading"
+JDD_OBJECTIFS,3.2,Inventory of zones of interest,Acquisition of field data (not synthesis) to establish/confirm or update ZNIEFF inventory zones (and possible ZICO or IBA type approaches). Inventories to support the management of (already designated) areas fall under the next heading (3.3)
+JDD_OBJECTIFS,3.3,Inventory/assessment for management plans,"Structured acquisition of naturalist data to prepare, revise or update a management plan (in the broad sense) of a natural area with a particular protection or management status (Natura 2000, Reserves, Parks, public forest...) or of a private site for its ecological management (e.g. golf courses, LGV right-of-way...). Including assessments to evaluate the heritage value of the site (IQE type), the conservation status of its habitats, to define issues by sector... 'Opportunistic' data collected by these managers may also fall into this category but should preferably form datasets separate from protocol-based data (cat. 2.4)"
+JDD_OBJECTIFS,3.4,Opportunistic observations on a site,"Opportunistic data collected in a site-centred approach: during management operations, related observation data collected during a site inventory or monitoring. The notion of site covers a predefined area (or network of areas) with a management issue (reserves, conservancy site, company sites, green space...)"
+JDD_OBJECTIFS,3.5,Generalised inventories & exploration,"Programme targeted at one or a few sites, aimed at compiling an extensive inventory of the taxa present, multi-group and generally to discover new species (for Science or for the territory). Examples: ATBI, IBG... These programmes generally include collection building, barcoding, taxonomic work etc. Inventory work on a site covering a very large invertebrate order (Hymenoptera, or Diptera, Coleoptera or Lepidoptera, Arachnida etc.) falls into this category"
+JDD_OBJECTIFS,3.6,Inventory for impact assessment,"Inventories carried out as part of regulatory impact assessment or incidence assessment procedures, before the impacts occur. Post-construction regulatory monitoring (e.g. bat mortality) or compensation monitoring is not covered by this category (falls under category 5.4)"
+JDD_OBJECTIFS,3.7,Habitat mapping of a site,"Data corresponding to vegetation-habitat-ecosystem mapping for a site, to support management (identification of issues, adaptation of management etc.) Field approaches, image processing or a combination of both are included. Species community relevés (generally vegetation/phytosociological relevés or benthos for marine habitats) carried out as part of an inventory or mapping of the vegetation-habitats-ecosystems of a site. If only relevés are carried out (without determination of the vegetation or habitat type), another heading must be assigned."
+JDD_OBJECTIFS,4.1,Resource assessment / harvesting,"Fish, fisheries, halieutic, game, pharmaceutical or dendrological inventories and monitoring to quantify the available resource, stocks or harvests taken (game bag...)"
+JDD_OBJECTIFS,4.2,Assessment of collisions/strandings,"Census and monitoring of wildlife / linear transport infrastructure collision points. Monitoring of marine animal strandings (turtles, cetaceans...) is also placed under this heading"
+JDD_OBJECTIFS,5.1,Individual-centred monitoring,"Work, generally in the research field, aimed at studying behaviour at the individual level: dispersal, movement path, migratory path, space use at different periods... etc."
+JDD_OBJECTIFS,5.2,Temporal surveillance of species,"This category only includes data obtained according to a protocol repeated over time which aims to provide a reliable picture of the evolution of the measured variables at the level of a population, a species or several species that do not however form an interacting community. It generally concerns a fairly large scale (site networks, departmental to national), generally representative, exhaustive or regular sampling, and does not directly aim to test a hypothesis with manipulation (if so, category 5.). Repeated atlases ultimately allowing changes in distribution to be measured fall into category 1.2"
+JDD_OBJECTIFS,5.3,Species community surveillance,"This category only includes data obtained according to a protocol of surveys of interacting species repeated over time, which aims to provide a reliable picture of the evolution over time of the measured variables for a species community, possibly linked to a habitat type. It concerns a fairly large scale (site networks, departmental to national), generally representative, exhaustive or regular sampling, and does not directly aim to test a hypothesis with manipulation (if so, category 6.2 or 6.3)"
+JDD_OBJECTIFS,5.4,Habitat surveillance,"This category only includes data obtained according to a protocol repeated over time which aims to provide a reliable picture of the evolution over time of the presence and/or area of a habitat in the broad sense (vegetation, ecosystem...). It generally concerns a fairly large scale (site networks, departmental to national), generally representative, exhaustive or regular sampling, and does not directly aim to test a hypothesis with manipulation (if so, category 6.2). Species community relevés (generally vegetation/phytosociological relevés or benthos for marine habitats) carried out for surveillance fall within this scope. If only relevés are carried out (without determination of the vegetation or habitat type), the previous heading must be assigned"
+JDD_OBJECTIFS,5.5,Surveillance of pathogens and invasive alien species,"Schemes dedicated to detecting the presence (or abundance...) and monitoring the evolution of species having a negative impact on agriculture, forestry, health or biodiversity... Participatory or professional, surveys... Related observations from these protocols also fall into this category but should ideally form a separate dataset. Monitoring of so-called 'pest' species falls into this category"
+JDD_OBJECTIFS,6.1,Site surveillance,"These are surveillance/watch schemes over time to detect, without prior assumptions, changes in the measured variables (abundance of a population of a species of concern, individual traits, abundance index, occupancy rate, traits and other species community metrics, area occupied by vegetation-habitats-ecosystems...). It concerns a local scale (site or predetermined network of sites – reserve networks etc.). Does not directly aim to test a hypothesis with manipulation (if so, category 6.2). Experimental design: time series"
+JDD_OBJECTIFS,6.2,Management or experimental monitoring,"Monitoring over time (before/after, possibly with controls) linking species or communities, vegetation-habitats-ecosystems, and a management action (including non-intervention) or a pressure in order to determine its effect. Generally in a natural area context or for restoration or compensation (verification of a gain over time), or even research work. Generally concerns a site or a network of sites. Experimental design: B/A (before/after) and BACI (before/after control/impact) Any large-scale adaptive scheme would fall into this category"
+JDD_OBJECTIFS,6.3,Management effect study,"Study of the effects of management (or pressure, or non-management etc.) on species or communities, vegetation-habitats-ecosystems, with a space-for-time substitution. That is, the effect is measured only at a time t, by comparing different management histories but without before/after measurement (if before/after: 6.2). Experimental design: C/I (control/ impact)"
+JDD_OBJECTIFS,6.4,Regulatory monitoring,"These are temporal monitoring schemes aimed at tracking impacts after the installation of a structure, imposed by law or when works are authorised. For example, monitoring of bird and bat mortality after a wind farm is installed. Regulatory monitoring as part of compensation also falls into this category"
+JDD_OBJECTIFS,7.1,Data aggregation,"Category to be used when the dataset mixes various types of data, without metadata currently allowing them to be separated into more precise and more coherent datasets. This may include acquisition frameworks and datasets made up of groupings of Elementary Exchange Data (DEE) to produce an atlas, only when the original data collection objective cannot be determined. When no information is available on the reasons for data acquisition, this heading must be used"
+JDD_OBJECTIFS,7.2,Other studies and programmes,Cases not clearly falling under the other headings. In this case the metadata (free 'description' and 'protocol' fields of the metadata records) must clearly explain the purpose of the data acquisition
+METHOD_CALCUL_SURFACE,es,Estimated: the area is estimated by the operator,Estimated: the area is estimated by the operator
+METHOD_CALCUL_SURFACE,lin,Calculated from the width of the linear feature,Calculated from the width of the linear feature
+METHOD_CALCUL_SURFACE,nsp,Don't know: the calculation method is unknown,Don't know: the calculation method is unknown
+METHOD_CALCUL_SURFACE,sig,The area is calculated directly using GIS software,The area is calculated directly using GIS software
+METHO_RECUEIL,1,"Direct observation: sight, hearing, smell, touch","Direct observation: sight, hearing, smell, touch"
+METHO_RECUEIL,10,Capture-mark-recapture,Capture-mark-recapture
+METHO_RECUEIL,11,Capture-tracking (radiotracking),Capture-tracking (radiotracking)
+METHO_RECUEIL,12,Other,Other
+METHO_RECUEIL,2,Camera traps,Camera traps
+METHO_RECUEIL,3,Ultrasound detection,Ultrasound detection
+METHO_RECUEIL,4,Search for signs of presence,Search for signs of presence
+METHO_RECUEIL,5,Aerial photographs,Aerial photographs
+METHO_RECUEIL,6,Remote sensing,Remote sensing
+METHO_RECUEIL,7,Telemetry,Telemetry
+METHO_RECUEIL,8,Capture of individuals (without sample collection): catch and release,Capture of individuals (without sample collection): catch and release
+METHO_RECUEIL,9,Sampling (capture with sample collection): capture and preservation,Sampling (capture with sample collection): capture and preservation
+METH_DETERMIN,1,Not specified,The identification method has not been provided
+METH_DETERMIN,10,Auditory examination with electronic transformation,"Identification is based on listening to the sounds produced by the species after electronic transformation: ultrasound transformation, heterodyne signals, time expansion…"
+METH_DETERMIN,11,Examination of reproductive organs or specific criteria in the laboratory,Identification is based on precise examination of the reproductive organs or other specific criteria in the laboratory
+METH_DETERMIN,12,Examination of reproductive organs or specific criteria in the field,Identification is based on examination of the reproductive organs or other specific criteria directly in the field
+METH_DETERMIN,13,Examination of the individual's remains under magnifier or microscope,Identification is based on precise visual examination of the remains (fragments or residues) of the individual under a magnifier or microscope
+METH_DETERMIN,14,Visual examination of the individual's remains,Identification is based on visual examination of the remains (fragments or residues) of the individual with the naked eye
+METH_DETERMIN,15,Examination of the individual's remains on photo or video,Identification is based on visual examination of the remains (fragments or residues) of the individual on photograph or video
+METH_DETERMIN,16,Examination of tracks or signs of presence on photo or video,Identification is based on examination of photographs or videos showing tracks or signs of presence
+METH_DETERMIN,17,Direct examination of tracks or signs of presence,Identification is based on direct examination of tracks or signs of presence by the identifier
+METH_DETERMIN,18,Visual examination at a distance,"Identification was carried out at a distance in the field, with the naked eye or using a spotting scope, binoculars etc"
+METH_DETERMIN,19,Visual examination in a collection,"Identification is based on visual examination of an individual in a collection: entomological box, herbarium, collections in alcohol or formalin…"
+METH_DETERMIN,2,Other identification method,The identification method is not in this list
+METH_DETERMIN,20,Visual examination under magnifier or microscope,Identification is based on precise examination of the individual under a magnifier or microscope
+METH_DETERMIN,21,Visual examination of the individual in hand,Identification is based on direct examination of the individual in hand with the naked eye
+METH_DETERMIN,22,Visual examination on photo or video,Identification is based on examination of photographs or videos in which the species appears
+METH_DETERMIN,3,Environmental DNA analysis,Identification was carried out on the basis of the results of an environmental DNA analysis
+METH_DETERMIN,4,DNA analysis of the individual or its remains,"Identification was carried out on the basis of the results of a DNA analysis performed on a sample taken from one or more individuals, or from tracks or remains (fragments or residues) of individuals"
+METH_DETERMIN,5,Biophysical or biochemical analysis,Identification is based on biophysical or biochemical methods
+METH_DETERMIN,6,Species deduced from identification number,"The species is deduced from an identification number previously assigned to an individual: ring number, GPS tag number etc"
+METH_DETERMIN,7,Computer identification by an automatic recognition tool,"Identification was carried out using one or more automatic visual or auditory species recognition applications, on a computer or mobile device"
+METH_DETERMIN,8,Biometric examination,Identification is based on biometric examinations
+METH_DETERMIN,9,Direct auditory examination,"Identification is based on direct listening to the sounds produced by the species, by ear and without transformation"
+METH_OBS,0,Seen,Direct observation of a living individual.
+METH_OBS,1,Heard,Acoustic observation of a living individual.
+METH_OBS,10,Remains in regurgitated pellet,"Identifies the species to which the remains found in the regurgitated pellet belong (bones or exoskeletons, for example)."
+METH_OBS,11,Hair/feathers/integumentary structures,"Indirect observation of the species through its hair, feathers or integumentary structures, not necessarily from a moult."
+METH_OBS,12,Food remains,Indirect observation through the food remains of the individual.
+METH_OBS,13,Spore,"Identification of an individual or group of individuals of a taxon through the observation of spores, unicellular or multicellular corpuscles capable of giving rise to a new individual without fertilisation. In plants, reproductive corpuscles giving rise to rudimentary male and female prothalli (corresponding respectively to pollen grains and the embryo sac), whose products are the gametes."
+METH_OBS,14,Pollen,"Indirect observation of an individual or group of individuals of a taxon through the observation of pollen, a very fine dust produced in the anther locules, each microscopic grain of which is a utricle or small membranous sac containing the fertilising fluid (after Bouillet 1859)."
+METH_OBS,15,Oosphere,"Indirect observation. Female sex cell in plants which, after fertilisation, becomes the egg."
+METH_OBS,16,Ovule,Indirect observation. Organ containing the female gamete. Megasporangium of spermatophytes.
+METH_OBS,17,Flower,"Identification of an individual or group of individuals of a taxon through the observation of flowers. A flower is a set of modified leaves, forming the floral envelope and sexual organ, arranged on a receptacle. A peduncle connects it to the stem. (e.g.: catkin)."
+METH_OBS,18,Leaf,"Identification of an individual or group of individuals of a taxon through the observation of leaves. Aerial organ very important in plant nutrition, site of photosynthesis which produces organic compounds (sugars, proteins) forming the sap."
+METH_OBS,19,Environmental DNA,DNA sequence found in an environmental sample (water or soil).
+METH_OBS,2,Eggshells,Indirect observation via eggshells.
+METH_OBS,20,Other,For any case not covered by this list. The number of occurrences will allow the nomenclature to evolve.
+METH_OBS,21,Unknown,Unknown: The method is not mentioned in the observer's documents (literature for example).
+METH_OBS,22,Leaf mine,"Gallery bored by larvae within the thickness of a leaf, between the upper and lower epidermis"
+METH_OBS,23,Gallery/burrow,"Indirect observation: Gallery bored in wood, roots or stems by larvae (Lepidoptera, Coleoptera, Diptera) or dug in the ground (micromammals, mammals... )."
+METH_OBS,24,Ootheca,Shell-like membrane that protects the egg mass of certain insects and certain molluscs.
+METH_OBS,25,Seen and heard,Seen and heard: the occurrence was both seen and heard.
+METH_OBS,26,Olfactory,Olfactory contact: the occurrence was smelled at the observation site
+METH_OBS,27,Footprints and faeces,Footprints and faeces
+METH_OBS,3,Ultrasound,Indirect acoustic observation of a living individual with specific equipment allowing ultrasound to be transduced into sounds perceptible by a human.
+METH_OBS,4,Footprints,Indirect observation via footprints.
+METH_OBS,5,Exuviae,Indirect observation: an exuvia.
+METH_OBS,6,Faeces/Guano/Droppings,Indirect observation through excrement
+METH_OBS,7,Moults,"Indirect observation through feathers, hair, integumentary structures, skin, antlers... resulting from a moult."
+METH_OBS,8,Nest/Roost,Indirect observation through the presence of a nest or roost not occupied at the time of observation.
+METH_OBS,9,Regurgitated pellet,Identifies the species that produced the regurgitated pellet.
+MOSAIQUE_HAB,1,Spatial mosaic,
+MOSAIQUE_HAB,2,Temporal mosaic,
+MOSAIQUE_HAB,3,Mixed mosaic,
+MOSAIQUE_HAB,4,Mosaic of unknown type,
+NATURALITE,0,Unknown,Unknown: the naturalness of the subject is unknown
+NATURALITE,1,Wild,"Wild: Describes an animal or plant in the wild, a native individual, found within its natural range and whose individuals result from natural reproduction, without human intervention."
+NATURALITE,2,Cultivated/farmed,Cultivated/farmed: Describes an individual from a non-native population deliberately introduced into non-natural areas dedicated to cultivation or farming.
+NATURALITE,3,Planted,Planted: Describes a plant from a non-native population introduced on a one-off basis and deliberately into a natural/semi-natural area.
+NATURALITE,4,Feral,"Feral: Describes a farmed animal that has returned to the wild, an individual from a non-native population."
+NATURALITE,5,Subspontaneous,"Subspontaneous: Describes a plant from a deliberately introduced non-native population, which persists for a longer or shorter time at its original location and has its own limited dynamics restricted to the surroundings of its initial establishment. ""Garden escape""."
+NAT_OBJ_GEO,In,Inventory,Inventory-based: The observed taxon is present somewhere within the geographic object
+NAT_OBJ_GEO,NSP,Don't know,Don't know: The information is unknown
+NAT_OBJ_GEO,St,Site-based,Site-based: The observed taxon is present over the whole geographic object
+NIVEAU_TERRITORIAL,1,International,International level
+NIVEAU_TERRITORIAL,2,European,European level
+NIVEAU_TERRITORIAL,3,National,National level
+NIVEAU_TERRITORIAL,4,"Inter-regional terrestrial, or marine region","Inter-regional terrestrial level, or marine region"
+NIVEAU_TERRITORIAL,5,"Regional terrestrial, or marine sub-region","Regional terrestrial level, or marine sub-region"
+NIVEAU_TERRITORIAL,6,"Departmental, or marine sector","Departmental level, or marine sector"
+NIVEAU_TERRITORIAL,7,Municipal or local,Municipal or local level
+NIV_PRECIS,0,Standard,"Standard diffusion: by grid cell, ZNIEFF, municipality, protected area (default status)."
+NIV_PRECIS,1,Municipality,Blurred diffusion of the DEE by linking to the municipality.
+NIV_PRECIS,2,Grid cell,Blurred diffusion by linking to the 10 x 10 km grid cell
+NIV_PRECIS,3,Department,Blurred diffusion by linking to the department.
+NIV_PRECIS,4,None,"No diffusion (exceptional case), corresponds to sensitivity level 4 data."
+NIV_PRECIS,5,Precise,"As-is diffusion: if precise data exist, they must be diffused as they are."
+OBJ_DENBR,COL,Colony,Number of colonies observed.
+OBJ_DENBR,CPL,Pair,Number of pairs observed.
+OBJ_DENBR,HAM,Flower stalk,Number of flower stalks observed.
+OBJ_DENBR,IND,Individual,Number of individuals observed.
+OBJ_DENBR,NID,Nest,Number of nests observed.
+OBJ_DENBR,NSP,Don't know,The count method is not known.
+OBJ_DENBR,PON,Egg clutch,Number of egg clutches observed.
+OBJ_DENBR,SURF,Area,"Areal extent occupied by the taxon, in square metres."
+OBJ_DENBR,TIGE,Stem,Number of stems observed.
+OBJ_DENBR,TOUF,Tuft,Number of tufts observed.
+OCC_COMPORTEMENT,0,Unknown,Unknown: The biological status of the individual is not known.
+OCC_COMPORTEMENT,1,Not specified,Not specified: The biological status of the individual has not been provided.
+OCC_COMPORTEMENT,10,Flyover,Flyover: Indicates that the individual is passing through and in flight.
+OCC_COMPORTEMENT,11,Erratic,"Erratic: Individual from one or more populations of a taxon that currently occurs only occasionally within the boundaries of a region. The threshold adopted is absence for 80% of a given time span (year, seasons...)."
+OCC_COMPORTEMENT,12,Sedentary,"Sedentary: Individual remaining in a single location, or staying all year round in its region of origin, even if it makes local movements."
+OCC_COMPORTEMENT,13,Summering,"Summering: the individual is summering (change in behaviour linked to summer, which may for example include a change of location, diet, sap or fat production...)"
+OCC_COMPORTEMENT,14,Feeding of young,Feeding of young
+OCC_COMPORTEMENT,15,Perched,Perched: Perched individual(s)
+OCC_COMPORTEMENT,16,Movement,Movement: Individual(s) moving
+OCC_COMPORTEMENT,17,Resting,Resting
+OCC_COMPORTEMENT,18,Singing,Singing
+OCC_COMPORTEMENT,19,Mating,Mating
+OCC_COMPORTEMENT,2,Stranding,Stranding: the individual is attempting to strand or has just stranded on the shore
+OCC_COMPORTEMENT,20,Mating wheel,Mating wheel
+OCC_COMPORTEMENT,21,Tandem,Tandem
+OCC_COMPORTEMENT,22,Territorial,Territorial
+OCC_COMPORTEMENT,23,Laying eggs,Laying eggs
+OCC_COMPORTEMENT,3,Roost,Roost: individuals gathering in a defined area to spend the night or the day there.
+OCC_COMPORTEMENT,4,Migration,Migration: The individual (or group of individuals) is actively migrating
+OCC_COMPORTEMENT,5,Web building,Web building: the individual is building its web
+OCC_COMPORTEMENT,6,Migratory stopover,"Migratory stopover: Indicates that the individual is making a stopover during its migration, and was found in its stopover area."
+OCC_COMPORTEMENT,7,Swarming,"Swarming: Indicates that the individual shows swarming behaviour: it gathers with other individuals of similar size, in a specific area, or while moving."
+OCC_COMPORTEMENT,8,Hunting/feeding,Hunting / feeding: Indicates that the individual is in an area where it can hunt or feed.
+OCC_COMPORTEMENT,9,Wintering,"Wintering: the individual is wintering (change in behaviour linked to winter, which may for example include a change of location, diet, sap or fat production...)"
+PREUVE_EXIST,0,Unknown,"Indicates that the person who provided the data does not know whether evidence exists, or that the data state that there was evidence that may have been used for the identification, with no means of verifying it."
+PREUVE_EXIST,1,Yes,"Indicates that evidence exists or has existed for the identification, and is still accessible."
+PREUVE_EXIST,2,No,Indicates the absence of evidence.
+PREUVE_EXIST,3,Not acquired,"NotAcquired: The original data mention evidence, or not, but are not sufficiently standardised for the information to be retrieved. The information is therefore not acquired during the transfer."
+RESOURCE_TYP,1,Dataset,Dataset
+RESOURCE_TYP,2,Series,set of dataset series
+ROLE_ACTEUR,1,Main contact,Main contact
+ROLE_ACTEUR,2,Funder,Funder
+ROLE_ACTEUR,3,Project owner,Project owner
+ROLE_ACTEUR,4,Project manager,Project manager
+ROLE_ACTEUR,5,Dataset provider,Dataset provider
+ROLE_ACTEUR,6,Dataset producer,Dataset producer
+ROLE_ACTEUR,7,Contact point for the production database,Contact point for the production database
+ROLE_ACTEUR,8,Contact point for metadata,Contact point for metadata
+ROOT,0,Nomenclature root,Root = Parent of all nomenclatures
+SAMPLING_PLAN_TYP,1,Simple random,Unit draws are equiprobable and independent)
+SAMPLING_PLAN_TYP,2,Systematic,The units are ordered (e.g. according to their coordinates). A first unit is drawn at random and the following ones are deduced from it while respecting the arrangement
+SAMPLING_PLAN_TYP,3,Stratified,"The study area is divided into more homogeneous strata (e.g. according to the main habitat types), and the sampling units are selected within each stratum according to a secondary sampling design"
+SAMPLING_PLAN_TYP,4,Adaptive sampling,"Random draw of a first batch of units, then new units are added according to the results obtained on the first ones"
+SAMPLING_PLAN_TYP,5,"Unequal probability (distance sampling, relascope)",Units are drawn at random with unequal probabilities (each sampling unit does not have the same probability of being selected). This is often the case for units of variable size
+SAMPLING_PLAN_TYP,6,"Multi-stage, cluster","Units are selected within a hierarchical system of primary units, made up of secondary units, etc. For example, trees are selected within plots, themselves selected within forest stands, etc"
+SAMPLING_PLAN_TYP,7,Subjective,The choice of sampling units is made according to the observer's own criteria (not always specified)
+SAMPLING_PLAN_TYP,8,Other,Other type of sampling design
+SAMPLING_UNITS_TYP,1,Individuals,Individuals
+SAMPLING_UNITS_TYP,2,Points,Points
+SAMPLING_UNITS_TYP,3,Quadrats,Area that must be square.
+SAMPLING_UNITS_TYP,4,Plots,"Area of variable shape (often circular, may also be rectangular, etc.)"
+SAMPLING_UNITS_TYP,5,Transects,"Continuous measurement along a path between two points (Sometimes refers to a series of plots placed along a route between two points, but this is a misuse of language: in that case, the sampling unit is the plot)"
+SAMPLING_UNITS_TYP,6,Other,Other type of sampling units
+SENSIBILITE,0,Not sensitive - precise diffusion,Non-sensitive data - Precise diffusion
+SENSIBILITE,1,Sensitive - diffused at wilayat level,Sensitive - Municipality or Znieff (visible only from that level)
+SENSIBILITE,2,Sensitive - diffused at wilayat level (10 km),Sensitive - 10 km grid cells (visible only from that level)
+SENSIBILITE,3,Sensitive - diffused at governorate level,Sensitive - Departments (visible only from that level)
+SENSIBILITE,4,Sensitive - no diffusion,Sensitive - No diffusion
+SENSIBLE,NON,No,"Indicates that the data are not sensitive (by default, equivalent to level ""0"" of the sensitivity levels)."
+SENSIBLE,OUI,Yes,Indicates that the data are sensitive.
+SEXE,0,Unknown,Unknown: No information is available for this individual.
+SEXE,1,Undetermined,Undetermined: The sex of the individual could not be determined
+SEXE,2,Female,Female: The individual is female.
+SEXE,3,Male,Male: The individual is male.
+SEXE,4,Hermaphrodite,Hermaphrodite: The individual is hermaphrodite.
+SEXE,5,Mixed,Mixed: Used when describing several individuals.
+SEXE,6,Not specified,Not specified: the information was not provided in the source document of the data.
+SOCIAB,1,1,1: Individual growing alone
+SOCIAB,2,2,"2: Caespitose individual, growing in a tuft"
+SOCIAB,3,3,3: Individual growing in a group forming small patches or cushions
+SOCIAB,4,4,4: Individual growing in a colony forming large patches or mats
+SOCIAB,5,5,"5: Individual growing in large numbers, pure, monospecific population"
+STADE_VIE,0,Unknown,The life stage of the individual is not known.
+STADE_VIE,1,Undetermined,The life stage of the individual could not be determined (observation insufficient for determination).
+STADE_VIE,10,Moult,"The individual is moulting (for reptiles: skin renewal, for birds/mammals: plumage/coat renewal, for cervids: antler shedding)."
+STADE_VIE,11,Exuviae,The individual is undergoing ecdysis: the exuvia is an envelope (chitinous cuticle or skin) that the animal's body has left during moulting or metamorphosis.
+STADE_VIE,12,Chrysalis,Pupa of lepidopterans or butterflies.
+STADE_VIE,13,Nymph,"Intermediate developmental stage, between larva and imago, during which the individual does not feed."
+STADE_VIE,14,Pupa,Pupa of dipterans.
+STADE_VIE,15,Imago,"Final stage of an individual whose development takes place in several phases (generally egg, larva, imago)."
+STADE_VIE,16,Subimago,"Developmental stage in certain insects: mobile, incomplete and sexually immature insect, although fairly strongly resembling the definitive adult form, the imago."
+STADE_VIE,17,Fry,"The individual, a fish, is at a juvenile stage."
+STADE_VIE,18,Germination,The individual is germinating.
+STADE_VIE,19,Withered,"The individual is altered in its colours and freshness, compared with a normal individual."
+STADE_VIE,2,Adult,The individual is at the adult stage.
+STADE_VIE,20,Seed,The seed is the structure that contains and protects the plant embryo.
+STADE_VIE,21,"Thallus, prothallus","A thallus is a vegetative body having neither leaves, nor stems, nor roots, produced by certain non-motile organisms."
+STADE_VIE,22,Tuber,"A tuber is a storage organ, generally underground, ensuring the survival of plants during the winter season or in periods of drought, and often their vegetative propagation."
+STADE_VIE,23,Bulb,A bulb is a vertical underground shoot with modified leaves used as a food storage organ by a dormant plant.
+STADE_VIE,24,Rhizome,The rhizome is an underground and sometimes subaquatic stem filled with food reserves in certain perennial plants.
+STADE_VIE,25,Emergent,The individual is at the emergent stage: emergence from the egg.
+STADE_VIE,26,Post-larva,Stage immediately following the larval stage and showing certain juvenile characteristics.
+STADE_VIE,27,Fruit,Fruit: The individual is in the form of a fruit.
+STADE_VIE,3,Juvenile,The individual has not yet reached the adult stage. It is a young individual.
+STADE_VIE,4,Immature,Individual that has not reached sexual maturity.
+STADE_VIE,5,Subadult,Individual that has almost reached adult size but is not considered as such by its conspecifics.
+STADE_VIE,6,Larva,"Individual in the state in which it emerges from the egg, a state in which it spends a more or less long time before metamorphosis."
+STADE_VIE,7,Caterpillar,Eruciform larva of lepidopterans or butterflies.
+STADE_VIE,8,Tadpole,Amphibian larva.
+STADE_VIE,9,Egg,"The individual is inside an egg, or within a group of eggs (clutch)"
+STATUT_BIO,0,Unknown,Unknown: the biological status of the individual is not known.
+STATUT_BIO,1,Not specified,Not specified: the biological status of the individual has not been specified.
+STATUT_BIO,13,Vegetative,The individual is at the vegetative stage.
+STATUT_BIO,2,Undetermined,Undetermined: the biological status of the individual could not be determined.
+STATUT_BIO,3,Breeding,"Breeding: the observed subject is at the breeding stage (nesting, gravid, sporophore, flowering, fruiting…)"
+STATUT_BIO,4,Hibernation,"Hibernation: hibernation is a state of regulated hypothermia, lasting several days or weeks, that allows animals to conserve energy during winter. "
+STATUT_BIO,5,Aestivation,"Aestivation: aestivation is a phenomenon analogous to hibernation, during which animals fall into lethargy. Aestivation occurs during the hottest and driest periods of summer."
+STATUT_BIO,9,No breeding,"No breeding: indicates that the individual does not show breeding behaviour. In plants: absence of flowers, fruits…"
+STATUT_OBS,NSP,Don't know,Don't know: the information is not known
+STATUT_OBS,No,Not observed,"Not observed: the observer did not detect a particular taxon, searched for using the protocol appropriate to the location and date of the observation. The taxon may be present but not seen, temporarily absent, or truly absent."
+STATUT_OBS,Pr,Present,Present: one or more individuals of the taxon were actually observed and/or signs indicating the presence of the taxon were found
+STATUT_SOURCE,Co,Collection,Collection: the observation comes from a collection database.
+STATUT_SOURCE,Li,Literature,Literature: the observation was extracted from a scientific article or book.
+STATUT_SOURCE,NSP,Don't know,Don't know: the source is unknown.
+STATUT_SOURCE,Te,Field,Field: the observation comes directly from a database or document resulting from field survey.
+STATUT_VALID,0,Pending validation,Validation work has not yet been carried out. The validation status is pending
+STATUT_VALID,1,Certain - very likely,"The record is accurate. There is no notable or significant doubt about the accuracy of the observation or of the taxon identification. Validation was carried out in particular on the basis of evidence of the observation confirming the producer's identification, or after checking with the observer and/or the identifier."
+STATUT_VALID,2,Probable," The record has a good level of reliability. It is plausible and credible. There is, a priori, no reason to doubt the accuracy of the record, but insufficient additional elements are available or assessed (in particular evidence or the possibility of returning to the source record) to assign a higher level of certainty."
+STATUT_VALID,3,Doubtful,"The record is unlikely or surprising, but there are insufficient elements to establish an obvious error. The record is considered doubtful."
+STATUT_VALID,4,Invalid,"The record has been refuted (obvious/proven error) or has too low a level of reliability. It is considered too improbable (aberrant in particular with regard to the known range, the biotic and abiotic parameters of the taxon's ecological niche, or the evidence reveals an identification error). It is considered invalid."
+STATUT_VALID,5,Not feasible,"The record went through the whole validation process, but the operator (human or machine) could not decide on the level of reliability, in particular for the following reasons: insufficient knowledge of the taxon, or insufficient information on the observation."
+STATUT_VALID,6,Unknown,The validation status is not known.
+STAT_BIOGEO,0,Unknown/cryptogenic,"Individual whose taxon has an unknown area of origin, so it cannot be said whether it is native or introduced."
+STAT_BIOGEO,1,Not specified,Individual for which the information has not been provided.
+STAT_BIOGEO,2,Present (native or undetermined),"Individual of a taxon present in the broad sense in the geographic area considered, i.e. a native taxon or a taxon for which it is not known whether it belongs to one of the other categories. Lack of knowledge therefore favours native status.  Native means: a taxon that originates from the geographic area considered and has developed there naturally without human contribution, or a taxon that arrived there without human intervention (intentional or not) from an area in which it is native6.  (NB: excludes hybrids at least one of whose parents is introduced in the area considered)  All taxa categorised as 'native' or 'indigenous' are grouped under this status.  Taxa wintering for a few months of the year fall into this category."
+STAT_BIOGEO,3,Introduced,"Taxon introduced (established or possibly established) at the local level.  Introduced means: a taxon whose local presence is due to human intervention, intentional or not, or a taxon that arrived in the area without human intervention but from an area in which it is introduced.  Established (term used for fauna, naturalised for flora) means: an introduced taxon that forms viable (reproducing) and lasting populations that persist in the wild without the need for human intervention.  This status groups all taxa categorised as « non-indigenous », « exotic », « exogenous », « allogenic », « allochthonous », « non-native », « naturalised » in a scientific publication."
+STAT_BIOGEO,4,Introduced invasive,"Individual of a locally introduced taxon that produces fertile offspring, often in large numbers, and has the potential to spread exponentially over a large area, thus rapidly increasing its range. This often leads to negative ecological, economic or health consequences. This status groups all individuals of taxa categorised as ""introduced invasive"", ""exotic invasive"", or ""invasive""."
+STAT_BIOGEO,5,Introduced not established (including domestic),"Individual whose taxon is introduced, which occasionally reproduces outside its area of cultivation or captivity, but cannot persist in the wild."
+STAT_BIOGEO,6,Occasional,"Individual whose taxon is occasional, non-breeding, accidental or exceptional in the geographical area considered (for example a passage migrant), which is local."
+TECHNIQUE_COLLECT_HAB,0,Don't know,Don't know: the collection technique used is not known
+TECHNIQUE_COLLECT_HAB,1,In situ,In situ: direct observation in the field (walked through or along). Corresponds to Direct daytime terrestrial observation in the CAMPANULE database
+TECHNIQUE_COLLECT_HAB,10,"Other, specify","Other, specify"
+TECHNIQUE_COLLECT_HAB,2,"Remote sensing (satellite, LIDAR...)","Remote sensing (satellite, LIDAR...)"
+TECHNIQUE_COLLECT_HAB,2.1,Lidar,Lidar
+TECHNIQUE_COLLECT_HAB,2.2,Radar,Radar
+TECHNIQUE_COLLECT_HAB,2.3,Airborne digital imagery,Airborne digital imagery
+TECHNIQUE_COLLECT_HAB,2.4,Satellite imagery,Satellite imagery
+TECHNIQUE_COLLECT_HAB,3,Acoustic techniques,Acoustic techniques
+TECHNIQUE_COLLECT_HAB,3.1,Side-scan sonar,Side-scan sonar
+TECHNIQUE_COLLECT_HAB,3.2,Multibeam echosounder,Multibeam echosounder
+TECHNIQUE_COLLECT_HAB,3.3,Interferometric sonar,Interferometric sonar
+TECHNIQUE_COLLECT_HAB,3.4,Interferometric sonar,Interferometric sonar
+TECHNIQUE_COLLECT_HAB,3.5,Seismic imaging,Seismic imaging
+TECHNIQUE_COLLECT_HAB,3.6,Sub-bottom profiler,Sub-bottom profiler
+TECHNIQUE_COLLECT_HAB,3.7,Single-beam echosounder,Single-beam echosounder
+TECHNIQUE_COLLECT_HAB,4,Modelling,Modelling
+TECHNIQUE_COLLECT_HAB,5,Remote observation (binoculars for example).,Remote observation (binoculars for example).
+TECHNIQUE_COLLECT_HAB,6,Direct marine observation (diving observation),Direct marine observation (diving observation)
+TECHNIQUE_COLLECT_HAB,7,Extrapolation,Extrapolation
+TECHNIQUE_COLLECT_HAB,8,In situ sampling techniques,In situ sampling techniques
+TECHNIQUE_COLLECT_HAB,8.1,Dives,Dives
+TECHNIQUE_COLLECT_HAB,8.2,Geotechnical measurements,Geotechnical measurements
+TECHNIQUE_COLLECT_HAB,8.3,Grab sampling,Grab sampling
+TECHNIQUE_COLLECT_HAB,8.4,Trawl or dredge sampling,Trawl or dredge sampling
+TECHNIQUE_COLLECT_HAB,8.4.1,Trawl sampling,Trawl sampling
+TECHNIQUE_COLLECT_HAB,8.4.2,Dredge sampling,Dredge sampling
+TECHNIQUE_COLLECT_HAB,8.5,Coring,Coring
+TECHNIQUE_COLLECT_HAB,9,Video and photographs,Video and photographs
+TECHNIQUE_COLLECT_HAB,9.1,Sediment profile imaging,Sediment profile imaging
+TECHNIQUE_COLLECT_HAB,9.2,Towed or remotely operated camera,Towed or remotely operated camera
+TECHNIQUE_COLLECT_HAB,9.3,Marine photographic observation (photographic observation while diving),Marine photographic observation (photographic observation while diving)
+TECHNIQUE_COLLECT_HAB,9.4,"Aerial photographic observation, aerial photography, followed by photo-interpretation","Aerial photographic observation, aerial photography, followed by photo-interpretation"
+TECHNIQUE_COLLECT_HAB,9.5,Terrestrial photographic observation followed by photo-interpretation.,Terrestrial photographic observation followed by photo-interpretation.
+TECHNIQUE_OBS,1,Environmental DNA (eDNA) analysis,Environmental DNA (eDNA) analysis
+TECHNIQUE_OBS,10,Capture with Cryldé net,Capture with Cryldé net
+TECHNIQUE_OBS,100,Malaise trapping (capture with Malaise tent),Malaise trapping (capture with Malaise tent)
+TECHNIQUE_OBS,101,Marris House Net trapping (capture with Marris House Net Malaise-type trap),Marris House Net trapping (capture with Marris House Net Malaise-type trap)
+TECHNIQUE_OBS,102,Ant microtube trapping,Ant microtube trapping
+TECHNIQUE_OBS,103,"Coloured plate trapping (coloured trap, adhesive coloured plate)","Coloured plate trapping (coloured trap, adhesive coloured plate)"
+TECHNIQUE_OBS,104,Trapping by sexual attraction with females,Trapping by sexual attraction with females
+TECHNIQUE_OBS,105,Trapping by sexual attraction with pheromones,Trapping by sexual attraction with pheromones
+TECHNIQUE_OBS,106,Trapping with aquatic emergence enclosure (aquatic emergence trap),Trapping with aquatic emergence enclosure (aquatic emergence trap)
+TECHNIQUE_OBS,107,"Trapping with ex situ terrestrial emergence enclosure (terrestrial emergence trap, rearing cage)","Trapping with ex situ terrestrial emergence enclosure (terrestrial emergence trap, rearing cage)"
+TECHNIQUE_OBS,108,"Trapping with in situ terrestrial emergence enclosure (terrestrial emergence trap, rearing cage)","Trapping with in situ terrestrial emergence enclosure (terrestrial emergence trap, rearing cage)"
+TECHNIQUE_OBS,109,Trapping with biocenometer-type enclosure,Trapping with biocenometer-type enclosure
+TECHNIQUE_OBS,11,Capture with mist net,Capture with mist net
+TECHNIQUE_OBS,110,Trapping with Hydrocanthares beetle trap (baited aquatic trap),Trapping with Hydrocanthares beetle trap (baited aquatic trap)
+TECHNIQUE_OBS,111,Trapping with aquatic traps or fyke nets (baited),Trapping with aquatic traps or fyke nets (baited)
+TECHNIQUE_OBS,112,Trapping with aquatic traps or fyke nets (unbaited),Trapping with aquatic traps or fyke nets (unbaited)
+TECHNIQUE_OBS,113,Terrestrial funnel trap trapping (baited),Trapping with terrestrial funnel trap (baited)
+TECHNIQUE_OBS,114,Terrestrial funnel trap trapping (unbaited),Trapping with terrestrial funnel trap (unbaited)
+TECHNIQUE_OBS,115,"Bidirectional window trap trapping ""mimicking a cavity"" (black strip)","Bidirectional window trap trapping ""mimicking a cavity"" (black strip)"
+TECHNIQUE_OBS,116,"Bidirectional window trap trapping (window trap, flat glass trap)","Bidirectional window trap trapping (window trap, flat glass trap)"
+TECHNIQUE_OBS,117,"Multidirectional window trap trapping with alcohol (Polytrap trap, PIMUL)","Multidirectional window trap trapping with alcohol (Polytrap trap, PIMUL)"
+TECHNIQUE_OBS,118,"Multidirectional window trap trapping without alcohol (Polytrap trap, PIMUL)","Multidirectional window trap trapping without alcohol (Polytrap trap, PIMUL)"
+TECHNIQUE_OBS,119,Trapping with foliage and woody twig collecting bag,Trapping with foliage and woody twig collecting bag
+TECHNIQUE_OBS,12,Capture with stationary net,Capture with stationary net
+TECHNIQUE_OBS,120,Chauvin selector trapping,Chauvin selector trapping
+TECHNIQUE_OBS,121,Trapping with insecticide-soaked cloth,Trapping with insecticide-soaked cloth
+TECHNIQUE_OBS,122,SLAM trapping (capture with Sand Land and Air Malaise trap),SLAM trapping (capture with Sand Land and Air Malaise trap)
+TECHNIQUE_OBS,123,Barrier trap trapping (pitfall traps with interception barrier),Barrier trap trapping (pitfall traps with interception barrier)
+TECHNIQUE_OBS,124,Hair traps,Hair traps
+TECHNIQUE_OBS,125,Track traps (footprint traps),Track traps (footprint traps)
+TECHNIQUE_OBS,126,"Aquatic leech traps (perforated, baited bottles...)","Aquatic leech traps (perforated, baited bottles...)"
+TECHNIQUE_OBS,127,Tube-shelter traps,Tube-shelter traps
+TECHNIQUE_OBS,128,Adhesive tube-shelter traps (hair-catching tubes),Adhesive tube-shelter traps (hair-catching tubes)
+TECHNIQUE_OBS,129,Sampling with rake or grapnel (macrophytes),Sampling with rake or grapnel (macrophytes)
+TECHNIQUE_OBS,13,"Direct capture (capture by sight, catch and release)","Direct capture (capture by sight, catch and release)"
+TECHNIQUE_OBS,130,Walking survey of watercourse (macrophytes),Walking survey of watercourse (macrophytes)
+TECHNIQUE_OBS,131,"Active search in natural habitat (banks, stumps, stones...)","Active search in natural habitat (banks, stumps, stones...)"
+TECHNIQUE_OBS,132,"Search in swimming pool filters, skimmer","Search in swimming pool filters, skimmer"
+TECHNIQUE_OBS,133,Not specified,The observation technique is not specified
+TECHNIQUE_OBS,14,Terrestrial trawling (roof net capture - car),Terrestrial trawling (roof net capture - car)
+TECHNIQUE_OBS,15,Creation of refuge habitat: other techniques,Creation of refuge habitat: other techniques
+TECHNIQUE_OBS,16,"Creation of refuge habitat: ground cover (plates, tarpaulins)","Creation of refuge habitat: ground cover (plates, tarpaulins)"
+TECHNIQUE_OBS,17,"Creation of refuge habitat: plant devitalisation, mutilation","Creation of refuge habitat: plant devitalisation, mutilation"
+TECHNIQUE_OBS,18,"Creation of refuge habitat: insect hotels, nest boxes","Creation of refuge habitat: insect hotels, nest boxes"
+TECHNIQUE_OBS,19,Creation of refuge habitat: artificial aquatic substrate,Creation of refuge habitat: artificial aquatic substrate
+TECHNIQUE_OBS,2,"Analysis of predator remains - regurgitated pellets, carnivore food remains, stomach analyses","Analysis of predator remains - regurgitated pellets, carnivore food remains, stomach analyses"
+TECHNIQUE_OBS,20,Detection with pointing dog,Detection with pointing dog
+TECHNIQUE_OBS,21,"Ultrasound detection (indirect listening, sound analysis, ultrasonic detection)","Ultrasound detection (indirect listening, sound analysis, ultrasonic detection)"
+TECHNIQUE_OBS,22,Night detection with headlamp (night hunting with headlamp),Night detection with headlamp (night hunting with headlamp)
+TECHNIQUE_OBS,23,Debarking,Debarking
+TECHNIQUE_OBS,24,"Direct listening (direct sound recognition, auditory detection)","Direct listening (direct sound recognition, auditory detection)"
+TECHNIQUE_OBS,25,Direct listening with hydrophone,Direct listening with hydrophone
+TECHNIQUE_OBS,26,Direct listening with playback,Direct listening with playback
+TECHNIQUE_OBS,27,Sound recording with hydrophone,Sound recording with hydrophone
+TECHNIQUE_OBS,28,Simple sound recording,Simple sound recording
+TECHNIQUE_OBS,29,Soil seed bank study,Soil seed bank study
+TECHNIQUE_OBS,3,Compressed-air suction sampler (marine),Compressed-air suction sampler (marine)
+TECHNIQUE_OBS,30,Examination of hosts - crayfish and fish (Piscicolidae and Branchiobdellidae leeches),Examination of hosts - crayfish and fish (Piscicolidae and Branchiobdellidae leeches)
+TECHNIQUE_OBS,31,Substrate extraction: splitting of hard substrates (marine),Substrate extraction: splitting of hard substrates (marine)
+TECHNIQUE_OBS,32,"Substrate extraction with grab (Van Veen, Smith McIntyre, Hamon...)","Substrate extraction with grab (Van Veen, Smith McIntyre, Hamon...)"
+TECHNIQUE_OBS,33,Substrate extraction with hand corer (diving),Substrate extraction with hand corer (diving)
+TECHNIQUE_OBS,34,Substrate extraction with hand corer (without diving - continental or supra/mediolittoral),Substrate extraction with hand corer (without diving - continental or supra/mediolittoral)
+TECHNIQUE_OBS,35,"Substrate extraction with dredge net or dredge (Rallier du Baty dredge, Charcot Picard...)","Substrate extraction with dredge net or dredge (Rallier du Baty dredge, Charcot Picard...)"
+TECHNIQUE_OBS,36,"Terrestrial substrate extraction: soil block, litter collection...","Terrestrial substrate extraction: soil block, litter collection..."
+TECHNIQUE_OBS,37,Marine sweep netting (diving),Marine sweep netting (diving)
+TECHNIQUE_OBS,38,Marine sweep netting (without diving - supra/mediolittoral),Marine sweep netting (without diving - supra/mediolittoral)
+TECHNIQUE_OBS,39,Terrestrial sweep netting (vegetation sweeping),Terrestrial sweep netting (vegetation sweeping)
+TECHNIQUE_OBS,4,Motorised suction type D-VAC (motorised vacuum),Motorised suction type D-VAC (motorised vacuum)
+TECHNIQUE_OBS,40,"Fumigation (fogging, insecticide thermal fogging)","Fumigation (fogging, insecticide thermal fogging)"
+TECHNIQUE_OBS,41,"Scraping, brushing of substrate (marine)","Scraping, brushing of substrate (marine)"
+TECHNIQUE_OBS,42,"De Vries method (sampling method, handful method)","De Vries method (sampling method, handful method)"
+TECHNIQUE_OBS,43,Rubber band method (arboreal lizards),Rubber band method (arboreal lizards)
+TECHNIQUE_OBS,44,Mustard observation - earthworms,Mustard observation - earthworms
+TECHNIQUE_OBS,45,Observation with binoculars (observation with spotting scope),Observation with binoculars (observation with spotting scope)
+TECHNIQUE_OBS,46,Observation with polarised glasses,Observation with polarised glasses
+TECHNIQUE_OBS,47,"Observation of flood detritus, debris and drift lines","Observation of flood detritus, debris and drift lines"
+TECHNIQUE_OBS,48,Larvae observation (larvae search),Larvae observation (larvae search)
+TECHNIQUE_OBS,49,"Observation of macro-remains (carcasses, elytra...)","Observation of macro-remains (carcasses, elytra...)"
+TECHNIQUE_OBS,5,"Attraction for observation (honey baiting, pheromones...)","Attraction for observation (honey baiting, pheromones...)"
+TECHNIQUE_OBS,50,"Observation of micro-habitats (search for shelters, snags, polypores, dendrotelms...)","Observation of micro-habitats (search for shelters, snags, polypores, dendrotelms...)"
+TECHNIQUE_OBS,51,"Observation of egg clutches (egg observation, search for clutches)","Observation of egg clutches (egg observation, search for clutches)"
+TECHNIQUE_OBS,52,Substrate observation and sieving,Substrate observation and sieving
+TECHNIQUE_OBS,53,"Substrate observation by extraction: Berlese-Tullgren apparatus, Winckler-Moczarski...","Substrate observation by extraction: Berlese-Tullgren apparatus, Winckler-Moczarski..."
+TECHNIQUE_OBS,54,Substrate observation by extraction: flotation (by density),Substrate observation by extraction: flotation (by density)
+TECHNIQUE_OBS,55,"Observation of exit holes, emergence holes","Observation of exit holes, emergence holes"
+TECHNIQUE_OBS,56,Observation of exuviae,Observation of exuviae
+TECHNIQUE_OBS,57,Observation of signs of presence,Observation of signs of presence
+TECHNIQUE_OBS,58,Direct marine observation (diving observation),Direct marine observation (diving observation)
+TECHNIQUE_OBS,59,Direct daytime terrestrial observation (daytime sight hunting),Direct daytime terrestrial observation (daytime sight hunting)
+TECHNIQUE_OBS,6,"Beating (beating of vegetation, Japanese umbrella)","Beating (beating of vegetation, Japanese umbrella)"
+TECHNIQUE_OBS,60,Direct nighttime terrestrial observation (nighttime sight hunting),Direct nighttime terrestrial observation (nighttime sight hunting)
+TECHNIQUE_OBS,61,Direct nighttime terrestrial observation with spotlight,Direct nighttime terrestrial observation with spotlight
+TECHNIQUE_OBS,62,"Manual substrate observation (litter, soil...)","Manual substrate observation (litter, soil...)"
+TECHNIQUE_OBS,63,Marine observation by suspended camera,Marine observation by suspended camera
+TECHNIQUE_OBS,64,Marine observation by video sled,Marine observation by video sled
+TECHNIQUE_OBS,65,Marine observation by remotely operated vehicle (ROV),Marine observation by remotely operated vehicle (ROV)
+TECHNIQUE_OBS,66,Marine photographic observation (photographic observation while diving),Marine photographic observation (photographic observation while diving)
+TECHNIQUE_OBS,67,Observation by camera trap,Observation by camera trap
+TECHNIQUE_OBS,68,"Aerial photographic observation, aerial photography","Aerial photographic observation, aerial photography"
+TECHNIQUE_OBS,69,Terrestrial photographic observation (photographic hide),Terrestrial photographic observation (photographic hide)
+TECHNIQUE_OBS,7,Beating with beaters,Beating with beaters
+TECHNIQUE_OBS,70,Earthworm baskets,Earthworm baskets
+TECHNIQUE_OBS,71,Longline fishing,Longline fishing
+TECHNIQUE_OBS,72,"Dip net fishing (capture with dip net, dip net hunting)","Dip net fishing (capture with dip net, dip net hunting)"
+TECHNIQUE_OBS,73,"Trawl fishing, trawling (beam trawl...)","Trawl fishing, trawling (beam trawl...)"
+TECHNIQUE_OBS,74,Net fishing - to be detailed,Net fishing - to be detailed
+TECHNIQUE_OBS,75,Weighted net fishing (seine fishing),Weighted net fishing (seine fishing)
+TECHNIQUE_OBS,76,Surber net fishing,Surber net fishing
+TECHNIQUE_OBS,77,Kick net fishing (kick net hunting),Kick net fishing (kick net hunting)
+TECHNIQUE_OBS,78,Electrofishing,"Electric fishing, electrofishing"
+TECHNIQUE_OBS,79,Plantrou-type bait trapping (Charaxes trap),Plantrou-type bait trapping (Charaxes trap)
+TECHNIQUE_OBS,8,Brushing (terrestrial: bark...),Brushing (terrestrial: bark...)
+TECHNIQUE_OBS,80,Cone trapping (capture with unidirectional cone trap),Cone trapping (capture with unidirectional cone trap)
+TECHNIQUE_OBS,81,Dung beetle pitfall trapping,Dung beetle pitfall trapping
+TECHNIQUE_OBS,82,Carrion beetle pitfall trapping,Carrion beetle pitfall trapping
+TECHNIQUE_OBS,83,"Baited pitfall trapping (capture with pitfall trap with preservative liquid, Barber trap, pitfall)","Baited pitfall trapping (capture with pitfall trap with preservative liquid, Barber trap, pitfall)"
+TECHNIQUE_OBS,84,Unbaited pitfall trapping (pitfall trap without preservative liquid),Unbaited pitfall trapping (pitfall trap without preservative liquid)
+TECHNIQUE_OBS,85,"Adhesive trapping (sticky trap, glue trap, sticky band)","Adhesive trapping (sticky trap, glue trap, sticky band)"
+TECHNIQUE_OBS,86,"Aerial suction trapping (suction sampler, mosquito trap)","Aerial suction trapping (suction sampler, mosquito trap)"
+TECHNIQUE_OBS,87,Rotary aerial trapping,Rotary aerial trapping
+TECHNIQUE_OBS,88,Ground trapping - to be detailed,Ground trapping - to be detailed
+TECHNIQUE_OBS,89,"Bottle trapping (wine trap, fermented bait trap, chafer trap)","Bottle trapping (wine trap, fermented bait trap, chafer trap)"
+TECHNIQUE_OBS,9,Capture with snare,Capture with snare
+TECHNIQUE_OBS,90,Composite entomological trapping (PEC),Composite entomological trapping (PEC)
+TECHNIQUE_OBS,91,Aquatic fluorescent light trapping,Aquatic fluorescent light trapping
+TECHNIQUE_OBS,92,Aquatic incandescent light trapping,Aquatic incandescent light trapping
+TECHNIQUE_OBS,93,Aquatic LED light trapping,Aquatic LED light trapping
+TECHNIQUE_OBS,94,Automatic fluorescent light trapping,Automatic fluorescent light trapping
+TECHNIQUE_OBS,95,Automatic incandescent light trapping,Automatic incandescent light trapping
+TECHNIQUE_OBS,96,Automatic LED light trapping,Automatic LED light trapping
+TECHNIQUE_OBS,97,Manual fluorescent light trapping,Manual fluorescent light trapping
+TECHNIQUE_OBS,98,Manual incandescent light trapping,Manual incandescent light trapping
+TECHNIQUE_OBS,99,Manual LED light trapping,Manual LED light trapping
+TERRITOIRE,BLM,Saint Barthélemy,Saint Barthélemy
+TERRITOIRE,CLI,Clipperton,Clipperton
+TERRITOIRE,EPA,TAAF: Scattered Islands,TAAF: Scattered Islands
+TERRITOIRE,GLP,Guadeloupe,Guadeloupe
+TERRITOIRE,GUF,French Guiana,French Guiana
+TERRITOIRE,HORSFR,Outside territory,Outside territory
+TERRITOIRE,MAF,Saint Martin,Saint Martin
+TERRITOIRE,METROP,Metropolitan France,Metropolitan France
+TERRITOIRE,MTQ,Martinique,Martinique
+TERRITOIRE,MYT,Mayotte,Mayotte
+TERRITOIRE,NCL,New Caledonia,New Caledonia
+TERRITOIRE,PYF,French Polynesia,French Polynesia
+TERRITOIRE,REU,Réunion,Réunion
+TERRITOIRE,SPM,Saint Pierre and Miquelon,Saint Pierre and Miquelon
+TERRITOIRE,SUBANT,TAAF: Sub-Antarctic Islands,TAAF: Sub-Antarctic Islands
+TERRITOIRE,TADL,TAAF: Adélie Land,TAAF: Adélie Land
+TERRITOIRE,WLF,Wallis and Futuna,Wallis and Futuna
+TYPE_FINANCEMENT,1,Public,Public funding type
+TYPE_FINANCEMENT,2,Private,Private funding type
+TYPE_FINANCEMENT,3,Mixed,Mix of public and private funding
+TYPE_FINANCEMENT,4,Not funded,No funding
+TYPE_MEDIA,2,Photo,Image media
+TYPE_MEDIA,3,Web page,Web page media
+TYPE_MEDIA,4,PDF,PDF document media
+TYPE_MEDIA,5,Audio,mp3 audio file media
+TYPE_MEDIA,6,Video (file),Hosted video file media
+TYPE_MEDIA,7,YouTube video,ID of a video hosted on Youtube
+TYPE_MEDIA,8,Dailymotion video,ID of a video hosted on Dailymotion
+TYPE_MEDIA,9,Vimeo video,ID of a video hosted on Vimeo
+TYPE_PROTOCOLE,0,Unknown,Unknown
+TYPE_PROTOCOLE,1,Collection protocol,Collection protocol
+TYPE_PROTOCOLE,2,Synthesis protocol,Synthesis protocol
+TYPE_PROTOCOLE,3,Conformity and consistency protocol,Conformity and consistency protocol
+TYPE_PROTOCOLE,4,Validation protocol,Validation protocol
+TYPE_SITE,1,Cave,Cave-type bat site
+TYPE_SITE,2,Mine,Mine-type bat site
+TYPE_SITE,3,Building,Building-type bat site
+TYPE_SITE,4,Tree,Tree-type bat site
+TYPE_SITE,5,Rock,Rock-type bat site
+TYPE_SITE,6,Outside roost,Outside-roost bat site
+TYPE_SITE,7,Undetermined,Undetermined-type bat site
+TYPE_SITE,CHI,Bat site,Site for bat monitoring
+TYPE_SOL,1,Alocrisols,
+TYPE_SOL,10,Ferrallitisols and oxydisols,
+TYPE_SOL,11,Ferruginosols,
+TYPE_SOL,12,Fersialsols,
+TYPE_SOL,13,Fluviosols,
+TYPE_SOL,14,Grisols,
+TYPE_SOL,15,Gypsosols,
+TYPE_SOL,16,Histosols,
+TYPE_SOL,17,Leptismectisols,
+TYPE_SOL,18,Lithosols,
+TYPE_SOL,19,Luvisols,
+TYPE_SOL,2,Andosols,
+TYPE_SOL,20,Nitosols,
+TYPE_SOL,21,Organosols,
+TYPE_SOL,22,Pelosols,
+TYPE_SOL,23,Peyrosols,
+TYPE_SOL,24,Phaeosols,
+TYPE_SOL,25,Planosols,
+TYPE_SOL,26,Podzosols,
+TYPE_SOL,27,Rankosols,
+TYPE_SOL,28,Reductisols and redoxisols,
+TYPE_SOL,29,Regosols,
+TYPE_SOL,3,Anthroposols,
+TYPE_SOL,30,Salisols and sodisols,
+TYPE_SOL,31,Thalassosols,
+TYPE_SOL,32,Thiosols and sulfatosols,
+TYPE_SOL,33,Veracrisols,
+TYPE_SOL,34,Vertisols,
+TYPE_SOL,4,Arenosols,
+TYPE_SOL,5,Brunisols,
+TYPE_SOL,6,Solums whose exchange complex is dominated by calcium (and/or magnesium),
+TYPE_SOL,7,Chernosols,
+TYPE_SOL,8,Colluviosols,
+TYPE_SOL,9,Cryosols,
+TYP_ATTR,QTA,Quantitative,"The parameter is quantitative: it can be measured by a numerical value. Examples: exact age, size, number of growth rings..."
+TYP_ATTR,QUAL,Qualitative,"The parameter is qualitative: it describes a quality that cannot be defined by a numerical quantity. Examples: old individual / young individual, turbid water, sparse habitat…"
+TYP_DENBR,Ca,Calculated,Calculated: count obtained by mathematical operation
+TYP_DENBR,Co,Counted,Counted: count by enumeration of individuals
+TYP_DENBR,Es,Estimated,Estimated: a count is qualified as estimated when the value of the parameter for the product concerned has not been determined by means of a measurement technique.
+TYP_DENBR,NSP,Don't know,Don't know: the counting method is not known
+TYP_EN,AAPN,AAPN,National park adhesion area
+TYP_EN,ANTAR,ANTAR,Antarctic Treaty protected area
+TYP_EN,APB,APB,Biotope protection order
+TYP_EN,APIA,APIA,Apia Convention protected area
+TYP_EN,ASPIM,ASPIM,Specially Protected Area of Mediterranean Importance
+TYP_EN,BPM,BPM,Property inscribed on the UNESCO World Heritage List
+TYP_EN,CARTH,CARTH,Cartagena Convention protected area
+TYP_EN,CNP,CNP,"National park core area. Value frozen on 15/06/2016 and replaced by ""CPN"""
+TYP_EN,ENS,ENS,Sensitive natural area
+TYP_EN,MAB,MAB,Biosphere reserve (Man and Biosphere)
+TYP_EN,N2000,N2000,Natura 2000
+TYP_EN,NAIRO,NAIRO,Nairobi Convention specially protected area
+TYP_EN,OSPAR,OSPAR,OSPAR Convention marine protected area
+TYP_EN,PNM,PNM,Marine nature park
+TYP_EN,PNR,PNR,Regional nature park
+TYP_EN,PRN,PRN,Nature reserve protection perimeter
+TYP_EN,RAMSAR,RAMSAR,Ramsar site: wetland of international importance
+TYP_EN,RBD,RBD,Biological reserve
+TYP_EN,RBI,RBI,Strict biological reserve
+TYP_EN,RCFS,RCFS,Hunting and wildlife reserve
+TYP_EN,RIPN,RIPN,National park strict reserve
+TYP_EN,RNC,RNC,Corsica nature reserve
+TYP_EN,RNCFS,RNCFS,National hunting and wildlife reserve
+TYP_EN,RNN,RNN,National nature reserve
+TYP_EN,RNR,RNR,Regional nature reserve
+TYP_EN,SCEN,SCEN,Conservatoire d'espaces naturels site
+TYP_EN,SCL,SCL,Conservatoire du littoral site
+TYP_EN,ZHAE,ZHAE,Wetland acquired by a Water Agency
+TYP_EN,ZNIEFF,ZNIEFF,"Natural Area of Ecological, Faunistic and Floristic Interest (type not specified)"
+TYP_EN,ZNIEFF1,ZNIEFF1,"Natural Area of Ecological, Faunistic and Floristic Interest type I"
+TYP_EN,ZNIEFF2,ZNIEFF2,"Natural Area of Ecological, Faunistic and Floristic Interest type II"
+TYP_GRP,AUTR,AUTR,The value is not contained in this list. It must be completed with other information.
+TYP_GRP,CAMP,CAMP,Sampling campaign
+TYP_GRP,INVSTA,INVSTA,Station inventory
+TYP_GRP,LIEN,LIEN,"Link: indicates a strong link between 2 observations. (One occurrence carried by the other, a symbiosis, parasitism…)"
+TYP_GRP,NSP,Don't know,Don't know: the information is not known.
+TYP_GRP,OBS,OBS,Observations
+TYP_GRP,OP,OP,Sampling operation
+TYP_GRP,PASS,PASS,Visit
+TYP_GRP,POINT,POINT,Sampling point or observation point.
+TYP_GRP,REL,REL,"Survey record (whether phytosociological, observational, or other...)"
+TYP_GRP,STRAT,STRAT,Stratum
+TYP_INF_GEO,1,Georeferencing,Georeferencing of the geographical object. The geographical object is the one on which the observation was made.
+TYP_INF_GEO,2,Attachment,"Attachment to the geographical object: the geographical object is not the original georeference, or was deduced from other information."
+VOLET_SINP,1,Land,"All data relating to French nature/biodiversity in the terrestrial domain (including overseas territories): habitats, flora, fauna, fungi..., data relating to natural areas (protected / managed or not), geological sites, ecosystems and their functioning."
+VOLET_SINP,2,Sea,"All data relating to French nature / biodiversity in the marine domain (including overseas territories): habitats, flora, fauna, fungi..., data relating to natural areas (protected/managed or not), geological sites, ecosystems and their functioning."
+VOLET_SINP,3,Landscape,"All data relating to landscapes, i.e. data relating to the forms of the territory, social perceptions and territorial dynamics. They also include specific inventories. They concern natural, rural, urban and peri-urban areas. They include terrestrial areas, inland and maritime waters. They concern both landscapes that may be considered outstanding and everyday and degraded landscapes."

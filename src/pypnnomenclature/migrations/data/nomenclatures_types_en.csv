@@ -1,0 +1,105 @@
+type,label_en,definition_en
+ABONDANCE_HAB,Habitat abundance,Nomenclature of Braun-Blanquet and Pavillard coefficients adapted to describe the relative abundance of habitats within a station
+ACC,Accessibility level,Nomenclature of accessibility levels of a geological site
+ACC2,Reason for accessibility level,Nomenclature of reasons for an accessibility level
+AIRECONNUE,Known area,Nomenclature of values indicating whether the area of a relevé is known or not
+AUTPREAL,Prior access authorisation,Nomenclature of values concerning the possible issuance of a prior authorisation to access a site
+BRANCHEMETH,"Phytosociological methods, branches",Nomenclature of branches of phytosociological methods
+BRAUNBARK,"Braun Blanquet Barkman, abundance-dominance","Nomenclature of values of the extended Braun-Blanquet Barkman scale as in the dictionary of plant sociology and synecology (Géhu, 2006)"
+BRAUNBLANQABDOM,"Braun Blanquet Pavillard, abundance-dominance",Nomenclature of values for the Braun-Blanquet Pavillard (1928) abundance-dominance scale
+BRAUNPAV,"Braun Blanquet Pavillard, abundance",Nomenclature of values of the Braun-Blanquet Pavillard (1928) abundance scale
+CAT_LISTE_ROUGE,Red List category,Nomenclature of threat categories
+CA_OBJECTIFS,Acquisition framework objective,Nomenclature of permitted values for acquisition framework objectives.
+COMPLETREL,Relevé completeness,Nomenclature of completeness values for detailed phytosociological relevés
+CONFID,Confidentiality value,Nomenclature of confidentiality values
+COUPGEOL,Presence/absence of geological section,Nomenclature of presence/absence of a geological section
+DATA_TYP,Data type,Nomenclature of SINP data types relating to datasets
+DEE_FLOU,Data blurring,Nomenclature indicating whether blurring was applied to the data when it was created as a DEE.
+DETERMINATION_TYP_HAB,Habitat determination type,Nomenclature of habitat determination types
+DOC,Document type,Nomenclature of document types
+DOMIN,Domin scale,"Nomenclature of Domin scale values (Source: Evans & Dahl, 1955)"
+DS_PUBLIQUE,Data origin code,"Nomenclature of data origin codes: public, private, mixed..."
+ETAT1,Condition level of a geological site,Nomenclature of potential condition levels of a site
+ETAT2,Reason for the condition level of a geological site,Nomenclature indicating the reasons for the condition level of the site
+ETA_BIO,Biological condition of the observation,Nomenclature of biological conditions of the observation.
+EXISTPROT,Existence of protection for a geological site,Nomenclature indicating whether protection exists or not
+EXPOSITION,Terrain aspect,Nomenclature of cardinal and intercardinal points used to indicate the aspect of a terrain.
+FORMES,Relevé forms,Nomenclature of possible forms of a phytosociological relevé
+GILGES,Gilges code,Nomenclature of Gilges codes
+HAB_INTERET_COM,Habitat of Community interest,Nomenclature of values indicating whether a habitat is of Community interest
+INTGEOL,Geological interest of the geological site,Nomenclature of the geological interests a site may have
+INTSEC,Secondary interest of the geological site,"Nomenclature of potential secondary interests, according to the types of secondary interest."
+INTSECTYP,Secondary interest type of the geological site,Nomenclature of potential secondary interest types of a geological site
+INVGEOL,Geological inventory type,Nomenclature of types of geological inventory that can be carried out on a site
+JDD_OBJECTIFS,Dataset objective,Nomenclature of permitted values for dataset objectives.
+JUR1,"Protection status, primary elements, for a geological site","Nomenclature of protection statuses, primary elements"
+JUR2,"Protection status, secondary elements, for a geological site","Nomenclature of protection statuses, secondary elements"
+LONDO,Londo scale,"Nomenclature of values of the Londo abundance-dominance scale following Londo, 1976 (The decimal scale for releves of permanent quadrats)"
+METHOD_CALCUL_SURFACE,Area calculation method,Nomenclature of area determination types
+METHO_RECUEIL,Data collection method,"Nomenclature of the set of techniques, know-how and tools used to collect data."
+METH_DETERMIN,Identification method,"Nomenclature of identification methods, indicating which method was used to identify the subject."
+METH_OBS,Observation methods,"Nomenclature of observation methods, indicating how or through which sign the subject was observed."
+MODIF,Modification status of geological site record,Nomenclature of site record modification statuses
+MOSAIQUE_HAB,Mosaic value,
+NATURALITE,Naturalness level,Nomenclature of naturalness levels
+NAT_OBJ_GEO,Nature of geographic object,Nomenclature of geographic object natures
+NIVEAU_TERRITORIAL,Territorial level,Nomenclature of values for the territorial level.
+NIVORGA,Relevé organisation levels,Nomenclature of organisation levels at which detailed phytosociological relevés can be found
+NIV_PRECIS,Requested diffusion precision levels,Nomenclature of diffusion precision levels requested by the producer.
+OBJ_DENBR,Count object,Nomenclature of objects that can be counted
+OCC_COMPORTEMENT,Behaviour of observed occurrences,Nomenclature of behaviours of observed occurrences
+ORDIN,Ordinal scale,"Nomenclature of values of the ordinal abundance-dominance scale, following Barkman (1964)"
+PAY,Specific access fee for the geological site,Nomenclature indicating whether a site requires a specific payment for access
+PEROUV,Opening periods of the geological site,Nomenclature of the opening periods of a site
+PHENGEOL,Geological phenomenon,Nomenclature of geological phenomena
+PRES,Presence,Nomenclature of taxon presence cases
+PREUVE_EXIST,Existing evidence,Nomenclature of the existence of evidence.
+PROT1,Generic protection status type for a geological site,Nomenclature of generic (or primary) types of protection and/or management statuses
+PROT2,Specific protection status type for a geological site,Nomenclature of specific (or secondary) types of protection and/or management statuses of a geological site
+RARETE,Rarity level of the geological site,Nomenclature of rarity levels for geological sites
+RATTACH,"Assignment to syntaxon, confer",Nomenclature of doubt indicators in the assignment to the syntaxon (confer).
+REF_HAB,Habitat reference lists and typologies,"Nomenclature of habitat reference lists and typologies used to report a habitat within the standard. The forthcoming reference is HABREF. http://inpn.mnhn.fr/telechargement/referentiels/habitats Typologies are available at the same address, but will soon be at the following address: http://inpn.mnhn.fr/telechargement/referentiels/habitats/typologies"
+REGION,Region code,Nomenclature of region codes
+RESOURCE_TYP,Resource type,Nomenclature of resource types relating to datasets
+ROLE_ACTEUR,Actor role,List of role types for actors. Each value corresponds exactly to a value of the ISO 19115 standard. This is specified for each of them.
+ROOT,Nomenclature root,Root. Parent of all nomenclatures
+SAMPLING_PLAN_TYP,Sampling design type,Process for selecting the sampling units on which the measurements of the parameters set out in the protocol are carried out
+SAMPLING_UNITS_TYP,Sampling unit type,The sampling unit is the unit on which the studied parameters are measured
+SENSIBILITE,Sensitivity levels,Nomenclature of possible sensitivity levels
+SENSIBLE,Qualitative sensitivity values,Nomenclature of qualitative sensitivity values (yes/no)
+SEXE,Sex,Nomenclature of sexes
+SOCIAB,Sociability,Nomenclature of sociability values of plant taxa following Braun Blanquet (1964)
+STADE_VIE,Life stage: developmental stage of the subject,Nomenclature of life stages: developmental stages of the subject of the observation.
+STATUT_BIO,Biological status,Nomenclature of biological statuses.
+STATUT_OBS,Observation status,Nomenclature of observation statuses.
+STATUT_SOURCE,Source status,Nomenclature of possible source statuses.
+STATUT_VALID,Validation status,Nomenclature of data validation statuses
+STAT_BIOGEO,Biogeographic status,Nomenclature of biogeographic statuses.
+TECHNIQUE_COLLECT_HAB,Habitat information collection technique,Nomenclature of the collection techniques used to obtain the habitat information
+TECHNIQUE_OBS,Observation techniques,"A technique is the set of specific know-how, processes and tools, applied in a logical manner (rules, steps and principles) to collect data associated with a parameter to be observed or an ecological factor to be taken into account. These are the means implemented in the field to observe species or habitats. A technique is defined in relation to a target. Within a protocol, it must be reproducible in time and space."
+TERRITOIRE,Territory,Nomenclature of territories.
+TYPCORR,Syntaxon correspondence type,Nomenclature of correspondence types between synusial relevés and sigmatist syntaxa
+TYPEAIRE,Area types,Nomenclature of area types used for phytosociological relevés
+TYPECH,Scale type,Nomenclature of scale types used to assess a taxon parameter in phytosociology
+TYPEPARM,"Parameters monitored for a taxon, phytosociology",Nomenclature of the types of parameters potentially monitored for a taxon in phytosociology
+TYPE_FINANCEMENT,Funding type,Nomenclature of funding types.
+TYPE_MEDIA,Media types,
+TYPE_PROTOCOLE,Protocol types,
+TYPE_SITE,Site types,
+TYPE_SOL,Soil type,
+TYPO1,Primary typology of a geological site,Nomenclature of primary typology elements of a geological site
+TYPO2,Secondary typology of a geological site,Nomenclature of secondary typology elements of the geological site. Some elements of this list are restricted to certain primary elements only (cf. nomenclature 53).
+TYPO3,Tertiary typology of a geological site,Nomenclature of tertiary typology elements of the geological site
+TYPPERS,Record contributor (person type),"Nomenclature of the types of persons who may have contributed to a geological site record, in any way whatsoever, or types of persons."
+TYP_ATTR,Attribute type,Nomenclature of additional attribute types.
+TYP_DENBR,Count type,"Nomenclature of possible count types (counting, estimate...)"
+TYP_EN,Natural area type,Nomenclature of natural area types.
+TYP_GRP,Grouping type,Nomenclature listing the possible values for the grouping type.
+TYP_INF_GEO,Geographic information type,"Nomenclature of geographic information types when a link to a geographic object is used (municipality, department, natural area, water body...)."
+UNITOP,Operational units,"List of particular, genetically unfixed plant morphological modifications (operational morphological units, operational biological units, and/or accommodates), imposed by the environment"
+UNITSURF,Area unit for a geological site,Nomenclature of area units that can be used to indicate the area of a geological site
+USEACTU,Use of a geological site,Nomenclature of the uses that can be made of a geological site
+VALNAT,National validation status for a geological site,Nomenclature of national validation statuses for a geological site
+VALREG,Regional validation status for a geological site,Nomenclature of regional validation statuses for the site in question.
+VERS_ME,Water body version,Nomenclature of the versions of the SANDRE reference list used for water bodies.
+VOLET_SINP,SINP component,Nomenclature of the components the SINP may address.

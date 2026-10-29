@@ -53,7 +53,7 @@ version = { file = "VERSION" }
 where = ["src"]
 
 [tool.setuptools.package-data]
-"pypnnomenclature.migrations" = ["data/*.sql"]
+"pypnnomenclature.migrations" = ["data/*.sql", "data/*.csv"]
 
 [tool.pytest.ini_options]
 minversion = "6.0"
